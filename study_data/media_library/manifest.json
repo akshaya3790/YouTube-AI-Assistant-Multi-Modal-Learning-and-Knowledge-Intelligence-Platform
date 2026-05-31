@@ -1,0 +1,12 @@
+[
+    {
+        "id": "test_local_file_001",
+        "filename": "test_audio.mp3",
+        "filepath": "study_data\\media_library\\uploads\\test_local_file_001.mp3",
+        "file_type": "audio",
+        "metadata": {},
+        "transcript": null,
+        "uploaded_at": "1780251743.875897",
+        "transcript_path": "study_data\\media_library\\transcripts\\test_local_file_001.txt"
+    }
+]

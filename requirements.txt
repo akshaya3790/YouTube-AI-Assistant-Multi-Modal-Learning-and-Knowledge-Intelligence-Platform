@@ -1,0 +1,16 @@
+streamlit
+yt-dlp
+google-generativeai
+st-annotated-text
+streamlit-chat
+fpdf
+langchain
+langchain-google-genai
+python-docx
+youtube-transcript-api
+chromadb
+moviepy
+plotly
+faster-whisper
+groq
+openai
