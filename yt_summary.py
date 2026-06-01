@@ -31,7 +31,10 @@ import multi_video_generator
 from multi_video_storage import MultiVideoStorage
 
 # Configure Gemini
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or "AIzaSyCefTl5p31gixkgkTFfaO7WJefK_VbB_RQ"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+if not GEMINI_API_KEY:
+    st.error("Set GEMINI_API_KEY or GOOGLE_API_KEY in your environment before running this app.")
+    st.stop()
 genai.configure(api_key=GEMINI_API_KEY)
 os.environ["GOOGLE_API_KEY"] = GEMINI_API_KEY
 

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#F8F9FE"/>
+  <rect x="220" y="24" width="720" height="492" rx="24" fill="#fff"/>
+  <text x="260" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#4B0082">My Dashboard</text>
+  <rect x="260" y="95" width="140" height="80" rx="12" fill="#F3E5F5"/>
+  <text x="280" y="125" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#6A5ACD">12</text>
+  <text x="280" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#666">Videos Summarized</text>
+  <rect x="420" y="95" width="140" height="80" rx="12" fill="#E8F5E9"/>
+  <text x="440" y="125" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#2E7D32">7</text>
+  <text x="440" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#666">Day Streak</text>
+  <rect x="580" y="95" width="140" height="80" rx="12" fill="#FFF3E0"/>
+  <text x="600" y="125" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#E65100">84%</text>
+  <text x="600" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#666">Avg Quiz Score</text>
+  <rect x="260" y="200" width="460" height="200" rx="12" fill="#FAFAFA" stroke="#E0E0E0"/>
+  <text x="280" y="230" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#333">Skill Growth (Plotly)</text>
+  <polyline points="280,360 340,320 400,300 460,280 520,250 580,230 640,210 700,195" fill="none" stroke="#9370DB" stroke-width="3"/>
+  <rect x="740" y="200" width="160" height="200" rx="12" fill="#FAFAFA" stroke="#E0E0E0"/>
+  <text x="760" y="230" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#333">SQLite KPIs</text>
+</svg>

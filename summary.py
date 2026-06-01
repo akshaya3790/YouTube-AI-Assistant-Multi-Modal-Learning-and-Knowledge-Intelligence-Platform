@@ -9,7 +9,9 @@ from langchain_core.messages import HumanMessage
 import time
 
 # Configure Gemini
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or "AIzaSyCefTl5p31gixkgkTFfaO7WJefK_VbB_RQ"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+if not GEMINI_API_KEY:
+    raise EnvironmentError("Set GEMINI_API_KEY or GOOGLE_API_KEY before running summary.py")
 genai.configure(api_key=GEMINI_API_KEY)
 os.environ["GOOGLE_API_KEY"] = GEMINI_API_KEY
 
